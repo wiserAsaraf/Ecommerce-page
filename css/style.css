@@ -1,0 +1,811 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(../assets/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url("../assets/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url("../assets/Poppins-Light.ttf");
+}
+:root {
+  --brandcolor: #0edc8d;
+  --bgColor: #f4f7fa;
+  --text-color: #888;
+}
+body {
+  font-size: 18px;
+  color: #888;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+.banner-tittle {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.bg-lights {
+  background-color: var(--brandcolor) !important;
+  text-transform: capitalize;
+}
+.social-icons {
+  color: white;
+  font-size: 15px;
+}
+.login-button {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+.login-buttons {
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: white;
+  color: var(--brandcolor);
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.dropdown-toggle::after {
+  content: none !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.w-25 {
+  height: 35px;
+}
+.navbar-nav {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.nav-link {
+  color: #614d4d;
+  font-weight: 600;
+  font-size: 14px;
+}
+input.form-control {
+  margin-right: -50px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.box-fa {
+  top: 10px;
+  left: 130px;
+  color: black;
+  border-left: 1px solid #d1d3da;
+  height: 32px;
+  padding-top: 6px;
+}
+.swiper-pagination-bullet-active {
+  background: white;
+  width: 20px;
+  border-radius: 20px;
+  font-size: 28px;
+}
+.swiper-pagination-bullet {
+  background: white;
+  opacity: unset;
+}
+.parents,
+.parentss,
+.background-images {
+  width: 100%;
+  margin-top: -90px;
+  height: 720px;
+  color: white;
+  background-size: cover !important;
+}
+.dolor {
+  width: 80%;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.parents {
+  background: linear-gradient(0deg, #081828e3, #081828e3),
+    url(../assets/images/bannericon1.jpg);
+}
+.parentss {
+  background: linear-gradient(0deg, #081828e3, #081828e3),
+    url(../assets/images/bannericon2.jpg);
+}
+.background-images {
+  background: linear-gradient(0deg, #081828e3, #081828e3),
+    url(../assets/images/banner3.jpg);
+}
+.simply {
+  width: 27%;
+  margin: 20px auto 0px;
+}
+/* body {
+  position: relative;
+  height: 100%;
+  background: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  width: 30%;
+  border-radius: 50%;
+  height: 100px;
+}
+.green-btns,
+.green-btns:hover {
+  background: var(--brandcolor);
+  border-radius: 30px;
+  font-size: 13px;
+  color: #fff;
+  display: inline;
+  text-align: center;
+  margin: 12px auto;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.idea {
+  font-size: 43px;
+  text-transform: capitalize;
+  font-weight: bold;
+  line-height: 50px;
+}
+.more,
+.our {
+  text-transform: capitalize;
+  font-size: 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 600;
+  border-radius: 0px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.excellent .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  top: 540px;
+}
+.Lorem {
+  width: 24%;
+}
+.more {
+  background: linear-gradient(to right, #0edc8d 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  background-color: var(--brandcolor);
+  color: black;
+  transition: all 1s ease;
+}
+.more:hover {
+  color: white;
+  background-position: left;
+}
+.our {
+  background: linear-gradient(to right, #fff 50%, #0edc8d 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  background-color: var(--brandcolor);
+  color: white;
+  transition: all 1s ease;
+}
+.our:hover {
+  background-color: #fff;
+  color: #000;
+  background-position: left;
+}
+.Trending {
+  font-size: 20px;
+  font-weight: bold;
+}
+.explore-btn {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 0px;
+  border: 1px solid rgb(235, 231, 231);
+  background: linear-gradient(to right, #0edc8d 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all 1s ease;
+}
+.explore-btn:hover {
+  background-color: var(--brandcolor);
+  color: white;
+  background-position: left;
+}
+.about-section {
+  background-color: #f4f7fa;
+}
+.about {
+  background-color: var(--brandcolor);
+  border-top-left-radius: 25px;
+  display: inline;
+  padding: 8px 19px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 13px;
+  font-weight: 800;
+  color: white;
+}
+.Welcome {
+  font-size: 30px;
+  font-weight: bold;
+}
+.dolors {
+  color: var(--text-color);
+  width: 80%;
+}
+.black-btn {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 0px;
+  padding: 13px 30px;
+  border: 1px solid rgb(235, 231, 231);
+  background: linear-gradient(to right, black 50%, #0edc8d 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all 1s ease;
+}
+.courses {
+  border-left: 1px solid rgb(224, 220, 220);
+}
+.black-btn:hover {
+  background-color: var(--brandcolor);
+  color: white;
+  background-position: left;
+}
+.play-icon {
+  font-size: 13px;
+  outline-color: white;
+}
+.Featured-Courses {
+  background-color: white;
+}
+.Featured {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.pages {
+  width: 50%;
+  font-size: 18px;
+  color: var(--text-color);
+}
+.underline {
+  border: 1px solid var(--brandcolor);
+  width: 50px;
+}
+.underlines {
+  border-bottom: 1px solid rgb(239, 232, 232);
+}
+.Science {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+.occaecat {
+  color: var(--text-color);
+}
+.gold-star {
+  color: #ffaa30;
+}
+.green-tag {
+  color: var(--brandcolor);
+}
+.Reviews {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.card {
+  border-radius: 0px;
+  border-color: rgb(239, 232, 232);
+}
+.clients {
+  height: 300px;
+  width: 100%;
+  color: white;
+  position: relative;
+  background-size: cover !important;
+  background: #fff
+    url(https://demo.graygrids.com/themes/edugrids/assets/images/achievement/achievement-bg.jpg)
+    fixed;
+}
+.clients::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  content: "";
+  transition: all 0.4s ease;
+  z-index: 6;
+}
+.clients::before {
+  background-color: #0edc8d;
+}
+.numbers {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  z-index: 7;
+  position: relative;
+}
+.Client {
+  position: relative;
+  z-index: 7;
+}
+.lookimage {
+  border-radius: 50%;
+  width: 40px;
+}
+.bg-skyblue {
+  background-color: #f4f7fa;
+}
+.Teacher {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--brandcolor);
+}
+.expert {
+  color: var(--text-color);
+  width: 80%;
+}
+.gomez {
+  font-size: 18px;
+  font-weight: bold;
+}
+.courses {
+  position: relative;
+}
+.courses::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--brandcolor);
+  position: absolute;
+  bottom: 0;
+  transition: width 2s;
+}
+
+.courses:hover::after {
+  width: 100%;
+}
+.Students {
+  background-color: var(--brandcolor);
+}
+.say {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.white-border {
+  border: 1px solid white;
+  width: 50px;
+}
+.passages {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+.sign-up .sign {
+  font-size: 15px;
+  font-weight: 600;
+}
+.news {
+  font-size: 35px;
+  font-weight: bold;
+}
+.green-btn:hover {
+  background: linear-gradient(to right, #0edc8d 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  background-color: var(--brandcolor);
+  color: white;
+  transition: all 1s ease;
+}
+.green-btn {
+  background-color: var(--brandcolor);
+  color: white;
+  background-position: left;
+  border-radius: unset;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.email {
+  border: 1px solid rgb(230, 227, 227);
+  font-weight: 600;
+}
+.deveplopment {
+  height: 300px;
+  width: 100%;
+  color: white;
+  position: relative;
+  background-size: cover !important;
+  background: #fff
+    url(https://demo.graygrids.com/themes/edugrids/assets/images/cta/call-bg.jpg)
+    fixed;
+}
+.deveplopment::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  content: "";
+  transition: all 0.4s ease;
+  background-color: #0edc8d;
+  z-index: 2;
+}
+.news,
+.free,
+.frees,
+.white-btn {
+  z-index: 3;
+}
+.white-btn {
+  background-color: white;
+  color: black;
+  background-position: left;
+  border-radius: unset;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.white-btn:hover {
+  background: linear-gradient(to right, #0edc8d 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  background-color: var(--brandcolor);
+  color: white;
+  transition: all 1s ease;
+}
+.black-btns {
+  background-color: black;
+  color: white;
+  background-position: left;
+  border-radius: unset;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.black-btns:hover {
+  background: linear-gradient(to right, #0edc8d 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  background-color: var(--brandcolor);
+  color: white;
+  transition: all 1s ease;
+}
+.dummy {
+  color: var(--text-color);
+  font-family: "poppins-light";
+}
+.stay {
+  font-size: 23px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.latest {
+  background-color: #f4f7fa;
+}
+.clients-img {
+  max-width: 220px;
+  width: 85%;
+  opacity: 0.3;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.gray-text {
+  color: var(--text-color);
+}
+.text-bold {
+  color: black;
+}
+.small-image {
+  position: relative;
+}
+.small-image:after {
+  content: "";
+  position: absolute;
+  left: 48%;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ffff;
+  clear: both;
+}
+.iconParent i.fa:before {
+  width: 30px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border: 1px solid rgb(220, 214, 214);
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.jane {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: white;
+}
+.founder {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.text-center {
+  background-color: var(--brandcolor);
+}
+.text-frist {
+  font-size: 0.8em;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.iconParent i {
+  border: 1px solid rgb(251, 251, 251);
+  border-radius: 50%;
+  color: #000;
+}
+.iconParent i:hover {
+  border-radius: 50%;
+  color: #fff;
+  background-color: var(--brandcolor);
+}
+.iconParent i.fa {
+  transition: transform 0.8s;
+}
+.iconParent i.fa:hover {
+  transform: rotate(360deg);
+}
+.socialIcons i.fa:before {
+  padding: 10px;
+  background-color: rgb(215, 215, 215);
+  border: 1px solid rgb(188, 188, 188);
+  border-radius: 50%;
+  color: #000;
+}
+.socialIcons i.fa {
+  transition: transform 0.3s;
+}
+.socialIcons i.fa:hover:before {
+  background-color: var(--brandcolor);
+  color: #fff;
+  border: 1px solid var(--brandcolor);
+}
+.socialIcons i.fa:hover {
+  transform: rotate(360deg);
+}
+@media (min-width: 200px) {
+  .simply {
+    width: 100%;
+    margin: 20px auto 0px;
+  }
+  .clients {
+    height: 465px;
+  }
+  .numbers,
+  .Client {
+    text-align: center;
+  }
+  .about-section {
+    padding-bottom: 60px;
+  }
+  .Featured-Courses {
+    padding-top: 60px;
+  }
+  .clients .Client {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Reviews {
+    text-align: center;
+  }
+  .Lorem {
+    width: 90%;
+  }
+  .pages {
+    width: 70%;
+  }
+  .idea {
+    font-size: 29px;
+    line-height: 35px;
+  }
+  .passages {
+    width: 70%;
+  }
+  .Subscribe {
+    width: 95%;
+  }
+  .free {
+    width: 95%;
+  }
+}
+@media (min-width: 576px) {
+  .simply {
+    width: 80%;
+    margin: 20px auto 0px;
+  }
+  .about-section {
+    padding-bottom: 60px;
+  }
+  .Featured-Courses {
+    padding-top: 60px;
+  }
+  .clients .Client {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Reviews {
+    text-align: center;
+  }
+  .clients {
+    height: 465px;
+  }
+  .numbers,
+  .Client {
+    text-align: center;
+  }
+  .Lorem {
+    width: 60%;
+  }
+  .Subscribe {
+    width: 70%;
+  }
+  .free {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .Lorem {
+    width: 50%;
+  }
+  .about-section {
+    padding-bottom: 60px;
+  }
+  .Featured-Courses {
+    padding-top: 60px;
+  }
+  .clients .Client {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .Reviews {
+    text-align: center;
+  }
+  .clients {
+    height: 250px;
+  }
+  .parentser {
+    text-align: center;
+  }
+  .Subscribe {
+    width: 55%;
+  }
+  .free {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .about-section {
+    padding-bottom: 120px;
+  }
+  .Lorem {
+    width: 40%;
+  }
+  .pages {
+    width: 35%;
+  }
+  .idea {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .passages {
+    width: 35%;
+  }
+  .Subscribe {
+    width: 45%;
+  }
+  .free {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .Reviews {
+    text-align: center;
+  }
+  .idea {
+    font-size: 43px;
+  }
+  .about-section {
+    padding-bottom: 120px;
+  }
+  .Featured-Courses {
+    padding-top: 120px;
+  }
+  .clients {
+    height: 300px;
+  }
+  .Lorem {
+    width: 30%;
+  }
+  .pages {
+    width: 50%;
+  }
+  .passages {
+    width: 50%;
+  }
+  .Subscribe {
+    width: 25%;
+  }
+  .free {
+    width: 31%;
+  }
+}
+@media (min-width: 1400px) {
+  .about-section {
+    padding-bottom: 120px;
+  }
+  .Featured-Courses {
+    padding-top: 120px;
+  }
+}
+@media (min-width: 1600px) {
+  .about-section {
+    padding-bottom: 120px;
+  }
+  .Featured-Courses {
+    padding-top: 120px;
+  }
+  .Lorem {
+    width: 25%;
+  }
+}
+@media (min-width: 1800px) {
+  .about-section {
+    padding-bottom: 120px;
+  }
+  .Featured-Courses {
+    padding-top: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-tittle {
+    text-align: center;
+  }
+}
