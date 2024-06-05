@@ -351,6 +351,7 @@ input.form-control {
 .lookimage {
   border-radius: 50%;
   width: 40px;
+  height: 40px;
 }
 .bg-skyblue {
   background-color: #f4f7fa;
@@ -565,8 +566,8 @@ input.form-control {
   font-weight: 500;
   text-transform: capitalize;
 }
-.text-center {
-  background-color: var(--brandcolor);
+.text-centers {
+  color: var(--brandcolor);
 }
 .text-frist {
   font-size: 0.8em;
@@ -606,6 +607,10 @@ input.form-control {
 }
 .socialIcons i.fa:hover {
   transform: rotate(360deg);
+}
+.Students .swiper-pagination {
+  bottom: 10px;
+  top: unset;
 }
 @media (min-width: 200px) {
   .simply {
