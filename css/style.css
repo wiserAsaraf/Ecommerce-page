@@ -98,6 +98,22 @@ input.form-control {
   color: white;
   background-size: cover !important;
 }
+.nav a.nav-link{
+  padding: 20px 0;
+  position: relative;
+}
+a.nav-link:hover:after, li.nav-item.dropdown:hover:after{
+  content: "\f004";
+  position: absolute;
+  font-family: 'FontAwesome';
+  color: var(--brandcolor);
+    position: absolute;
+    top: -7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 10px;
+}
 .dolor {
   width: 80%;
   font-size: 16px;
