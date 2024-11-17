@@ -23,6 +23,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
+.contact-info  .text-warning a{
+  color: gray;
+}
 .banner-tittle {
   font-size: 14px;
   font-weight: 600;
@@ -183,7 +186,8 @@ input.form-control {
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-  top: 540px;
+  position: absolute;
+  bottom: 50;
 }
 .Lorem {
   width: 24%;
