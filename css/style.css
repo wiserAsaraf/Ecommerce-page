@@ -326,7 +326,7 @@ input.form-control {
 .Featured-Courses .card {
   border-radius: 0px;
   border-color: rgb(239, 232, 232);
-  min-height: 580px !important;
+  min-height: 545px !important;
 }
 .clients {
   height: 300px;
